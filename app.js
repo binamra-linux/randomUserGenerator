@@ -9,7 +9,6 @@ async function users(){
 }
 
 function showUsers(info){
-	console.log(info)
 	let pic = info.picture.large
 	let [dobDate, dobTime] = info.dob.date.split("T")
 	document.getElementById("img").setAttribute("src", pic)
