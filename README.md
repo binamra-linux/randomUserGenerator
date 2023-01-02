@@ -1,4 +1,3 @@
-# randomUserGenerator
+Simple program to generate Random User to fill out form in different websites.
 
-
-Need to add stlye.
+Created using RandomUser API
