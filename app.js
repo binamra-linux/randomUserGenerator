@@ -9,8 +9,8 @@ async function users(){
 }
 
 function showUsers(info){
-	console.log(info)
-	let pic = info.picture.medium
+	//console.log(info)
+	let pic = info.picture.large
 	document.getElementById("img").setAttribute("src", pic)
 	document.getElementById("name").innerHTML = `${info.name.title} ${info.name.first} ${info.name.last}`
 	document.getElementById("gender").innerText = info.gender
@@ -20,7 +20,7 @@ function showUsers(info){
 
 let btn = document.getElementById("btn");
 btn.addEventListener("click", ()=>{
-	location.reload()
+	users()
 })
 
 users()
